@@ -45,6 +45,6 @@ RF_Model_pkl = open(RF_pkl_filename, 'wb')
 pickle.dump(RF, RF_Model_pkl)
 RF_Model_pkl.close()
 
-data = np.array([[80,20, 40, 23.603016, 60.3, 6.7, 140.91]])
+data = np.array([[30,5, 80, 70.603016, 60.3, 3.7, 140.91]])
 prediction = RF.predict(data)
 print(prediction)
